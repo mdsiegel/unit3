@@ -6,6 +6,9 @@
 for i in range(1,6):
     print('I <3 Computer Science')
 """
+i = 1
+
+
 """
 for i in range(1,21):
     print(i)
