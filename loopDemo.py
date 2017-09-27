@@ -10,7 +10,14 @@ for i in range(1,6):
 for i in range(1,21):
     print(i)
 """
+"""
 #print out the odd numbers from 13 to 27
-for i in range(13,28):
-    if i%2==1:
-        print(i)
+for i in range(13,28,2):
+     print(i)"""
+    
+#add up the numbers from 1 to 5
+total = 0
+for i in range(1,6):
+    total = total + i
+    
+print(total)
