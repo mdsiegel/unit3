@@ -7,7 +7,9 @@ for i in range(1,6):
     print('I <3 Computer Science')
 """
 i = 1
-
+while i<=5:
+    print('I <3 Computer Science')
+    i = i +1
 
 """
 for i in range(1,21):
