@@ -13,3 +13,10 @@ sum = 0
 for i in range(botNum,topNum+1):
     sum+=i
 print(sum)
+
+
+Dif = int(input('Enter a difference: '))
+sum = 0
+for i in range(1,101,Dif):
+    sum+=i
+print(sum)
