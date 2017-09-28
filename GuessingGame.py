@@ -5,9 +5,14 @@
 from random import randint
 
 num = randint(1,100)
-correct = False
 
-while correct == False:
+while 1<2:
     guess = int(input('Guess a number between 1 and 100: '))
-    
+    if guess > num:
+        print('Too high')
+    elif guess < num:
+        print('Too low')
+    else:
+        print("correct")
+        break
     
