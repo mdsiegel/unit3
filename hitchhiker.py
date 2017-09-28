@@ -4,7 +4,7 @@
 
 quit = False
 
-while quite==False:
+while quit==False:
     response = input("Ask a quesiton or type 'quit'")
     if response == 'quit':
         break
