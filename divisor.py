@@ -5,13 +5,12 @@
 num = int(input('Enter a number: '))
 stop = False
 i = 1
-while stop == False:
+while i<num:
     i+=1
     if num%i == 0:
         print(num/i)
     
-    if i==num:
-        break
+    
     
     
 
