@@ -21,9 +21,26 @@ while friday13<=10:
             runningMonth+=1
             if weekday(13,runningMonth,runningYear) == 5:
                 friday13+=1
+                print(13,runningMonth,runningYear)
         else:
             runningMonth==1
             runningYear+=1
             if weekday(13,runningMonth,runningYear) == 5:
                 friday13+=1
+                print(13,runningMonth,runningYear)
+    elif todayDay < 13:
+        if weekday(13,runningMonth,runningYear) == 5:
+                friday13+=1
+                print(13,runningMonth,runningYear)
+        else:
+            print(
+    else:
+        if weekday(13,runningMonth,runningYear) == 5:
+                friday13+=1
+                print(13,runningMonth,runningYear)
+        else:
+            
+            
+
+                
         
