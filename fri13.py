@@ -13,34 +13,19 @@ print(weekday(date.today().year,date.today().month,date.today().day))
 
 friday13 = 0
 
+
 runningMonth = todayMonth
 runningYear = todayYear
-while friday13<=10:
-    if todayDay > 13:
-        if runningMonth!=12:
-            runningMonth+=1
-            if weekday(13,runningMonth,runningYear) == 5:
-                friday13+=1
-                print(13,runningMonth,runningYear)
-        else:
-            runningMonth==1
-            runningYear+=1
-            if weekday(13,runningMonth,runningYear) == 5:
-                friday13+=1
-                print(13,runningMonth,runningYear)
-    elif todayDay < 13:
-        if weekday(13,runningMonth,runningYear) == 5:
-                friday13+=1
-                print(13,runningMonth,runningYear)
-        else:
-            print(
+if todayDay > 13:
+    if runningMonth!=12:
+        runingMonth +=1
     else:
-        if weekday(13,runningMonth,runningYear) == 5:
-                friday13+=1
-                print(13,runningMonth,runningYear)
-        else:
-            
-            
+        runningMonth == 1
+        runningYear+=1
 
-                
+
+while friday13<=1:
+    if weekday(13,runningMonth,runningYear) == 5:
+        print(13,runningMonth,runningYear)
+     
         
