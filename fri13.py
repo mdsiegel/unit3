@@ -23,9 +23,9 @@ if todayDay > 13:
         runningMonth == 1
         runningYear+=1
 
-print('final month is',runningMonth)
+print('final month is',runningMonth, 'and year is', runningYear)
 while friday13<=10:
-    if weekday(runningYear,runningMonth,13) == 5:
+    if weekday(runningYear,runningMonth,13) == 4:
         print(13,'/',runningMonth,'/',runningYear)
         friday13+=1
     if runningMonth == 12:
