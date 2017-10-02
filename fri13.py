@@ -24,8 +24,15 @@ if todayDay > 13:
         runningYear+=1
 
 
-while friday13<=1:
+while friday13<=10:
     if weekday(13,runningMonth,runningYear) == 5:
         print(13,runningMonth,runningYear)
+    if runningMonth == 12:
+        runningMonth == 1
+        runningYear+=1
+    else:
+        runningMonth+=1
+    
+    
      
         
