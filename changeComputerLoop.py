@@ -15,10 +15,12 @@ while cents > 0:
     elif cents //10 > 1:
         dimes += 1
         cents -=10
-    
     elif cents //5 > 1:
-        nickles += 1
+        nickels += 1
         cents -=5
     elif cents //1 > 1:
         pennies += 1
         cents -=1
+        
+        
+print('There are',quarters,'quarters',dimes,'dimes',nickles,'nickles', pennies,'pennies')
