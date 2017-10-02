@@ -23,13 +23,13 @@ if todayDay > 13:
         runningMonth == 1
         runningYear+=1
 
-
+print('final month is',runningMonth)
 while friday13<=10:
     if weekday(runningYear,runningMonth,13) == 5:
-        print(runningYear,runningMonth,13)
+        print(13,'/',runningMonth,'/',runningYear)
         friday13+=1
     if runningMonth == 12:
-        runningMonth == 1
+        runningMonth = 1
         runningYear+=1
     else:
         runningMonth+=1
