@@ -13,4 +13,4 @@ while numCorrect < 5:
     if answer == num1 + num2:
         print('correct!')
         numCorrect +=1
-    
+print('Congrats! You are smarter than Gary!')
