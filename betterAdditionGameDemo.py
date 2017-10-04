@@ -11,5 +11,6 @@ while numCorrect < 5:
     question = 'What is ' + str(num1) + ' + ' +  str(num2) + '?'
     answer = int(input(question))
     if answer == num1 + num2:
+        print('correct!')
         numCorrect +=1
     
