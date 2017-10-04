@@ -3,5 +3,8 @@
 #warmup9.py - print capital letters
 
 for ch in (input('Enter a word: ')):
-    print(ch.upper())
+    if ch =='a' or ch =='e' or ch =='i' or ch =='o' or ch =='u'or ch =='y':
+        print(ch.upper())
+    else:
+        print(ch)
 
