@@ -23,4 +23,4 @@ while cents > 0:
         cents -=1
         
         
-print('There are',quarters,'quarters',dimes,'dimes',nickles,'nickles', pennies,'pennies')
+print('There are',quarters,'quarters',dimes,'dimes',nickels,'nickles', pennies,'pennies')
