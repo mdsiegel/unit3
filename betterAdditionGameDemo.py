@@ -4,9 +4,12 @@
 
 from random import randint
 
-nunCorrect = 0
+numCorrect = 0
 while numCorrect < 5:
     num1 = randint(-10,10)
     num2 = randint(-10,10)
-    question = 'What is ' + str(num1) + ' + ' str(num2) + '?'
+    question = 'What is ' + str(num1) + ' + ' +  str(num2) + '?'
     answer = int(input(question))
+    if answer == num1 + num2:
+        numCorrect +=1
+    
