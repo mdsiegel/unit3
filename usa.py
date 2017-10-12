@@ -12,7 +12,7 @@ black = Color(0x000000,1)
 blackOutline = LineStyle(1,black) #pixels,color
 
 
-star = PolygonAsset([(60,0), (120,30), (100,60),(20,60),(0,30)], blackOutline, red)
+star = PolygonAsset([(60,0),(90,40), (120,30),], blackOutline, red)
 
 
 
