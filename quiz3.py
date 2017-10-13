@@ -12,3 +12,9 @@ total = 0
 for i in range(13,332,2):
     total +=i
 print(total)
+zWord = False
+while zWord == False:
+    word = input('Enter a word')
+    for ch in word.lower():
+        if ch == 'z':
+            zWord = True
